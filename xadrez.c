@@ -15,6 +15,18 @@ int main() {
         printf("Cavalo: Esquerda\n");
     }
 
+    printf("---------------\n");
+
+
+    int i = 0;
+    do {
+        while (i < 2) {
+            printf("Cavalo: Baixo\n");
+            i++;
+        }
+        printf("Cavalo: Esquerda\n");
+
+    } while (0);
 
 
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
